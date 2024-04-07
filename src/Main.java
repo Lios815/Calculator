@@ -48,10 +48,6 @@ class Main {
                 System.out.println("Output:");
                 System.out.println("Ошибка: Неправильный формат числа");
                 break;
-            } catch (IllegalArgumentException e) {
-                System.out.println("Output:");
-                System.out.println("Ошибка: " + e.getMessage());
-                break;
             }
         }
         scanner.close();
